@@ -43,4 +43,17 @@ here. I believe I can bring my professional field into my career.
 | Left | Center | Right |
 |:-----|:------:|------:|
 |Hey   |guy     |^^     |
-|I     |am      |here   |
+|I'm   |here    |:wave: |
+
+:cherry_blossom: :tulip: :four_leaf_clover:
+:rose: :sunflower: :hibiscus:
+:maple_leaf: :leaves: :fallen_leaf:
+:herb: :mushroom: :cactus:
+:palm_tree:	:evergreen_tree: :deciduous_tree:
+:ear_of_rice: :seedling: :blossom:
+
+![NKUST Icon](nkust.jpg "高科大 LOGO")
+
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
+
