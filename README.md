@@ -52,8 +52,38 @@ here. I believe I can bring my professional field into my career.
 :palm_tree:	:evergreen_tree: :deciduous_tree:
 :ear_of_rice: :seedling: :blossom:
 
+
 ![NKUST Icon](nkust.jpg "高科大 LOGO")
 
 [![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
+
+> Quicksort in Java
+``` java
+static int partition(int[] array, int begin, int end) {
+    int pivot = end;
+
+    int counter = begin;
+    for (int i = begin; i < end; i++) {
+        if (array[i] < array[pivot]) {
+            int temp = array[counter];
+            array[counter] = array[i];
+            array[i] = temp;
+            counter++;
+        }
+    }
+    int temp = array[pivot];
+    array[pivot] = array[counter];
+    array[counter] = temp;
+
+    return counter;
+}
+
+public static void quickSort(int[] array, int begin, int end) {
+    if (end <= begin) return;
+    int pivot = partition(array, begin, end);
+    quickSort(array, begin, pivot-1);
+    quickSort(array, pivot+1, end);
+}
+```
 
