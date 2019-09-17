@@ -12,7 +12,7 @@
 * 0624103 陳建銘
 * 1061231133 洪然峰
 
-###### `This is my first assignment. 😀
+###### `This is my first assignment. 😀`
 
 ```
     Hello, my name is YOU SHENG, CHEN. You can call me “Shane” and it represents
