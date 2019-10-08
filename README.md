@@ -120,6 +120,18 @@ c.檢查車輛資訊
 * 身為一個 **執法單位**  我希望能有 **一個簡單便利的系統**並在不耗費過多資源的前提下 能**即時找回失竊車輛並抑制車輛犯罪**
 
 
+
+7. 初步類別圖 (Initial class diagram)
+
+    ![Our initial class diagram](init_class_diagram.png "初步類別圖")
+
+
+
+8. 系統循序圖 (Sequence diagram)
+
+    ![Our sequence diagram](sequence_diagram.png "系統循序圖")
+
+
 ***
 
 # Name: CHEN,YOU-SHENG
