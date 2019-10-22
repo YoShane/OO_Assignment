@@ -66,7 +66,7 @@
 	  <tr>
 	    <td>使用案例</td>
 	    <td><p>終端裝置(Nvidia Jet nano):
-	辨識車牌(預處理,分割,OCR)-傳送車牌資訊</p>
+	辨識車牌(預處理,分割,OCR)-傳送車輛特徵</p>
 	<p>伺服器裝置: 
 	檢查車輛資訊-蒐集資訊-訊息推播</p>
 	<p>使用者(執法單位、研究師生):
@@ -88,19 +88,21 @@ a.辨識車牌
 
 	a-b 捕捉車輛影像，擷取車牌圖片
 
-	a-c  圖片預處理
+	a-c 圖片預處理
 
-	a-d 辨識車牌號碼
+	a-d 辨識車牌號碼、取得特徵
 
-b.傳送車牌資訊
+b.傳送車輛特徵
 
-	b-a 將車牌、時間與地點編號整理成JSON格式
+	b-a 整理特徵資料
+	
+	b-b 將車牌、時間、輪廓、顏色與地點編號整理成JSON格式
 
-	b-b 透過wifi或是4G網路將資訊傳送到伺服器API
+	b-c 透過wifi或是4G網路將資訊傳送到伺服器API
 
-	b-c 傳送失敗(即沒有收到ACK)就把資料先儲存在檔案中
+	b-d 傳送失敗(即沒有收到ACK)就把資料先儲存在檔案中
 
-	b-d 每半天檢查是否存在未傳送的資料(重新送出)
+	b-e 每半天檢查是否存在未傳送的資料(重新送出)
 
 c.檢查車輛資訊
 
@@ -125,11 +127,19 @@ c.檢查車輛資訊
 
     ![Our initial class diagram](init_class_diagram.png "初步類別圖")
 
+8. 系統操作循序圖 (System Operation Sequence diagram)
 
+    ![Our sequence diagram](sequence_diagram.png "系統操作循序圖")
+    
+9. 強韌圖 (Robustness diagram)
 
-8. 系統循序圖 (Sequence diagram)
+    ![Our robustness diagram](robustness_diagram.png "強韌圖")
 
-    ![Our sequence diagram](sequence_diagram.png "系統循序圖")
+10. 展開操作循序圖 (Operation Sequence diagram)
+
+    ![Our operation sequence diagram](sequence_diagram1.png "傳送車輛特徵展開-循序圖")
+     ![Our operation sequence diagram](sequence_diagram2.png "檢查車輛資訊展開-循序圖")
+      ![Our operation sequence diagram](sequence_diagram3.png "資料查詢展開-循序圖")
 
 
 ***
