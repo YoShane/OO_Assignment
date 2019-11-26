@@ -44,11 +44,11 @@ class Main {
 
     Rectangle rect = new Rectangle(5,10); //高,寬
     System.out.println(rect.getArea());
-    System.out.println(rect.toString());
+    System.out.println(rect);
 
     Triangle tri = new Triangle(8,5); //下底,高
     System.out.println(tri.getArea());
-    System.out.println(tri.toString());
+    System.out.println(tri);
 
   }
 }
